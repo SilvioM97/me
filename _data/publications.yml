@@ -24,7 +24,7 @@
   authors: "Silvio Martinico, Franco Maria Nardini, Cosimo Rulli, and Rossano Venturini"
   venue: "European Conference on Information Retrieval (ECIR)"
   year: 2026
-  doi: "to appear"
+  pdf: "https://arxiv.org/abs/2601.05200"
   code: "https://github.com/TusKANNy/papers_reproducibility/tree/main/ecir2026"
   selected: true
 
