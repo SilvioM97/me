@@ -20,6 +20,14 @@
 #   selected: true
 
 # --- Conference paper ---
+- title: "Multivector Reranking in the Era of Strong First-Stage Retrievers"
+  authors: "Silvio Martinico, Franco Maria Nardini, Cosimo Rulli, and Rossano Venturini"
+  venue: "European Conference on Information Retrieval (ECIR)"
+  year: 2026
+#  doi: "10.1145/3726302.3730268"
+  code: "https://github.com/TusKANNy/papers_reproducibility/tree/main/ecir2026"
+  selected: true
+
 - title: "Efficient Approximate Nearest Neighbor Search on a Raspberry Pi"
   authors: "Silvio Martinico, Franco Maria Nardini, Cosimo Rulli, and Rossano Venturini"
   venue: "International ACM SIGIR Conference on Research and Development in Information Retrieval"
