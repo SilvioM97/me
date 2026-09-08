@@ -3,9 +3,9 @@ education:
     institution: "University of Pisa"
     institution_url: "https://di.unipi.it/"
     location: "Pisa, Italy"
-    period: "2023 - ongoing"
+    period: "November 2023 – April 2027"
     description: >
-      Conducting research at the intersection of theory and systems, specializing in Information Retrieval and Approximate Nearest Neighbor (ANN) Search with a focus on high-performance, large-scale vector retrieval.
+      Research on efficient algorithms and data structures for Information Retrieval and Approximate Nearest Neighbor (ANN) search, carried out at the ISTI-CNR HPC Lab. Focus on late-interaction / multi-vector retrieval, compression, and index design. Published at SIGIR, ECIR, and CIKM.
 
   - title: "MSc in Computer Science"
     institution: "University of Pisa"
@@ -13,7 +13,7 @@ education:
     location: "Pisa, Italy"
     period: "October 6, 2023"
     description: >
-      Graduated with honors. Thesis on Approximate Nearest Neighbors Search.
+      Graduated 110/110 with honours. Thesis on Graph-based Indexing for Efficient and Effective Approximate Nearest Neighbors Search.
 
   - title: "BSc in Mathematics"
     institution: "University of Pisa"
@@ -21,25 +21,31 @@ education:
     location: "Pisa, Italy"
     period: "May 14, 2021"
     description: >
-      Thesis on the nature and computability of exponential algebraic structures.
+      Thesis on the decidability of the word problem for the free exponential ring and field.
     thesis: "https://drive.google.com/file/d/1dQqOjyA4QAJGRgEk5PIQ_rYHX21DRhra/view"
 
 work:
+  - title: "Research Engineer"
+    institution: "Weaviate"
+    institution_url: "https://weaviate.io/"
+    location: "Remote"
+    period: "August 2026 – Present"
+    description: >
+      Developing and optimizing multivector retrieval systems (ColBERT-style) as part of the Applied Research team.
+
   - title: "Founding Member & Core Maintainer"
     institution: "tusKANNy"
     institution_url: "https://tuskanny.com"
     location: "Pisa, Italy"
-    period: "March 2024 – Present"
+    period: "April 2024 – Present"
     description: >
-      Conducting applied research to architect and maintain high-performance, open-source Rust infrastructure for vector search. Serving as a lead developer for retrieval libraries within the group, managing the end-to-end lifecycle from designing algorithms and data structures to translating them into production-ready code, optimizing repository infrastructure and technical documentation.
+      Lead developer of the group's open-source retrieval libraries. I take algorithms from paper to production, covering Rust implementation, benchmarking, API design, documentation, and releases.
 
   - title: "Research Associate"
     institution: "ISTI-CNR"
     institution_url: "https://www.isti.cnr.it/"
     location: "Pisa, Italy"
-    period: "2023 - ongoing"
-    description: >
-      Conduct research on Information Retrieval and Approximate Nearest Neighbor search at the HPC Lab, designing and engineering high-performance systems for large-scale vector retrieval.
+    period: "November 2023 – Present"
 
   - title: "Visiting Researcher"
     institution: "University of Tokyo"
@@ -53,12 +59,4 @@ work:
     location: "Pisa, Italy"
     period: "03/2024 - 06/2024"
     description: >
-      Held weekly Q&A sessions for students of the Algorithms and Data Structures course within the M.Sc. program in Data Science.
-
-  - title: "Research Grant"
-    institution: "ISTI-CNR"
-    institution_url: "https://www.isti.cnr.it/"
-    location: "Pisa, Italy"
-    period: "02/2023 - 08/2023"
-    description: >
-      Implemented efficient data structures for vectors retrieval.
+      Tutor for the Algorithms and Data Structures course within the M.Sc. program in Data Science.

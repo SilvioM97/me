@@ -1,5 +1,5 @@
 name: "Silvio Martinico"
-role: "PhD Researcher @ UniPi & ISTI-CNR | Founding Member @ tusKANNy"
+role: "Research Engineer @ Weaviate | PhD Researcher @ UniPi & ISTI-CNR"
 email: "silvio.martinico@phd.unipi.it"
 address:
   street: "Largo Bruno Pontecorvo 3"
@@ -14,12 +14,20 @@ room: Room 298B
 affiliation: "Department of Computer Science, University of Pisa"
 affiliation_url: "https://di.unipi.it/"
 
-bio: >
-  I'm a Computer Science PhD Researcher at the University of Pisa and ISTI-CNR, and a founding member of the <a class="underline hover:no-underline text-sky-700" href="https://tuskanny.com" target="_blank" rel="noopener">tusKANNy</a> research group.
-  My work bridges theory and systems. I specialize in Information Retrieval and Approximate Nearest Neighbors (ANN), translating deep academic research into high-performance AI infrastructure.
-  Specifically, I architect and maintain scalable, open-source Rust libraries for vector retrieval.
+bio:
+  - >
+    I'm a computer scientist with a Math background. I work on making search faster and more scalable,
+    one of the real bottlenecks in AI right now.
+  - >
+    I'm wrapping up a PhD focused on efficiency in Information Retrieval and Vector Search, and at the same time
+    working as a Research Engineer at <a class="underline hover:no-underline text-sky-700" href="https://weaviate.io/" target="_blank" rel="noopener">Weaviate</a>,
+    because I wanted my work tested against problems that only show up at production scale.
+  - >
+    During my PhD I co-founded <a class="underline hover:no-underline text-sky-700" href="https://tuskanny.com" target="_blank" rel="noopener">tusKANNy</a>,
+    a research group built around one goal: making vector search efficient, and shipping the fastest open source
+    and production-ready retrieval libraries.
 
-photo: "assets/img/me.jpeg" # e.g., /assets/img/me.jpg — leave empty to hide the propic automatically
+photo: "assets/img/me.jpg" # e.g., /assets/img/me.jpg — leave empty to hide the propic automatically
 # Optional links (leave any blank to hide)
 scholar: "https://scholar.google.com/citations?user=RPDQv_gAAAAJ" # e.g., https://scholar.google.com/citations?user=XXXX
 orcid: "https://orcid.org/0009-0005-7280-6147" # e.g., https://orcid.org/0000-0000-0000-0000

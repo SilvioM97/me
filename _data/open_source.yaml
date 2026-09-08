@@ -1,15 +1,30 @@
 - name: "TACHIOM"
-  description: "TACHIOM is a fast and scalable data structure for late-interaction multi-vector retrieval, written in Rust with Python bindings. It allows to cluster hundreds of millions of vectors in few minutes on CPU and to retrieve from large multivector collections in under 10 ms on a single core."
+  description: >
+    A state-of-the-art multivector retrieval system based on Token-Aware Clustering (TAC), hierarchical indexing,
+    and late-interaction-optimized Product Quantization, written in Rust with Python bindings. It retrieves over
+    600M ColBERTv2 embeddings (MS MARCO) in 10 ms on a single core. Built on top of kANNolo and Vectorium, and integrated into
+    <a class="underline hover:no-underline text-sky-700" href="https://github.com/lightonai/pylate" target="_blank" rel="noopener">PyLate</a>.
   url: "https://github.com/TusKANNy/tachiom"
 
 - name: "kANNolo"
-  description: "A flexible Rust library combining state-of-the-art indexing techniques for both dense, sparse, and multivector embeddings. Designed to make prototyping new ANN algorithms fast and ergonomic."
+  description: >
+    A flexible Rust library combining state-of-the-art indexing techniques for both dense and sparse embeddings.
+    Designed to make prototyping new ANN algorithms fast and ergonomic. Delivers 2x+ faster retrieval than FAISS at
+    equal accuracy and is integrated into
+    <a class="underline hover:no-underline text-sky-700" href="https://github.com/terrier-org/pyterrier" target="_blank" rel="noopener">PyTerrier</a>.
   url: "https://github.com/TusKANNy/kannolo"
 
 - name: "Vectorium"
-  description: "A Rust library for storing, accessing, and compressing dense, sparse, and multi-vector embedding datasets. Provides a unified dataset/encoder interface shared across TusKANNy's indexing and search crates. Includes an exhaustive search API and a CLI tool for ground-truth computation."
+  description: >
+    A Rust library for storing, accessing, and compressing dense, sparse, and multi-vector embedding datasets.
+    Provides a unified dataset/encoder interface shared across tusKANNy's indexing and search crates. Includes an
+    exhaustive search API and a CLI tool for ground-truth computation.
   url: "https://github.com/TusKANNy/vectorium"
 
 - name: "Awesome Multivector Retrieval"
-  description: "A curated list of papers, code, models, and datasets for late-interaction multivector retrieval - covering ColBERT-style models, indexing techniques, software libraries, and benchmarks."
+  description: >
+    The reference collection of papers, code, models, and datasets for the late-interaction multivector retrieval
+    community, covering ColBERT-style models, indexing techniques, software libraries, and benchmarks. Featured in
+    the <a class="underline hover:no-underline text-sky-700" href="https://github.com/terrier-org/pyterrier" target="_blank" rel="noopener">PyTerrier</a>
+    tutorial at SIGIR 2026.
   url: "https://github.com/TusKANNy/awesome-multivector-retrieval"

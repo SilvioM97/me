@@ -20,11 +20,18 @@
 #   selected: true
 
 # --- Conference paper ---
+- title: "Lossless Compression of Proximity Graph Indexes for Efficient Approximate Nearest Neighbors Search"
+  authors: "Silvio Martinico, Francesco Benocci, Leonard Dahlmann, Francesco Gargiulo, Tobias Heuer, Franco Maria Nardini, Cosimo Rulli, and Rossano Venturini"
+  venue: "ACM International Conference on Information and Knowledge Management (CIKM)"
+  year: 2026
+  selected: true
+
 - title: "Efficient Multivector Retrieval with Token-Aware Clustering and Hierarchical Indexing"
   authors: "Silvio Martinico, Franco Maria Nardini, Cosimo Rulli, and Rossano Venturini"
   venue: "ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR)"
   year: 2026
   pdf: "https://arxiv.org/abs/2604.28142"
+  doi: "10.1145/3805712.3809927"
   code: "https://github.com/TusKANNy/tachiom"
   selected: true
 
@@ -41,6 +48,7 @@
   authors: "Silvio Martinico, Franco Maria Nardini, Cosimo Rulli, and Rossano Venturini"
   venue: "ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR)"
   year: 2025
+  pdf: "https://dl.acm.org/doi/pdf/10.1145/3726302.3730268"
   doi: "10.1145/3726302.3730268"
   code: "https://github.com/TusKANNy/ann_low_resource"
   selected: true
